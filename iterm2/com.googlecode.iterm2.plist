@@ -17,7 +17,7 @@
 	<key>AutoHideTmuxClientSession</key>
 	<false/>
 	<key>CheckTestRelease</key>
-	<true/>
+	<false/>
 	<key>ClosingHotkeySwitchesSpaces</key>
 	<false/>
 	<key>CommandSelection</key>
@@ -295,12 +295,8 @@
 	<true/>
 	<key>MaxVertically</key>
 	<false/>
-	<key>NSColorPanelMode</key>
-	<string>6</string>
-	<key>NSFontPanelAttributes</key>
-	<string>1, 0</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/ghq/src/github.com/i2bskn/config/iterm2</string>
+	<string>~/ghq/github.com/i2bskn/config/iterm2</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -308,6 +304,8 @@
 	<key>NSRepeatCountBinding</key>
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
+	<false/>
+	<key>NSScrollViewShouldScrollUnderTitlebar</key>
 	<false/>
 	<key>NSTableView Columns KeyBingingTable</key>
 	<array>
@@ -320,26 +318,16 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>302</string>
+		<string>322</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
-	<key>NSWindow Frame NSColorPanel</key>
-	<string>655 266 214 309 0 0 1440 878 </string>
-	<key>NSWindow Frame NSFontPanel</key>
-	<string>331 37 445 77 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>921 182 924 485 0 0 1920 1057 </string>
+	<string>-1301 284 606 456 -1440 180 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 303 1920 754 0 0 1920 1057 </string>
-	<key>NSWindow Frame iTerm Window 1</key>
-	<string>2169 134 1165 757 1440 -180 1920 1080 </string>
-	<key>NSWindow Frame iTerm Window 2</key>
-	<string>1991 -59 1165 757 1440 -180 1920 1080 </string>
-	<key>NSWindow Frame iTerm Window 3</key>
-	<string>2433 -157 710 1029 1440 -180 1920 1080 </string>
 	<key>NeverWarnAboutShortLivedSessions_21FE5903-C26A-48A6-9089-EA1FFB12080F</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -1079,10 +1067,16 @@
 			<string>/Users/iiboshiken</string>
 		</dict>
 	</array>
+	<key>NoSyncConfirmBeta</key>
+	<true/>
+	<key>NoSyncInstallationId</key>
+	<string>DC276CDB-2AE8-4FEC-BD3A-FDCEF13D53E9</string>
+	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
+	<real>487730151.75370002</real>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>453258467.90097398</real>
+	<real>487493450.41092402</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>473560860.66526198</real>
+	<real>487589983.60627103</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1129,7 +1123,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/iiboshi_ken/ghq/src/github.com/i2bskn/config/iterm2</string>
+	<string>/Users/iiboshi_ken/ghq/github.com/i2bskn/config/iterm2</string>
 	<key>PromptOnClose</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -1140,18 +1134,16 @@
 	<integer>8</integer>
 	<key>RightOption</key>
 	<integer>3</integer>
-	<key>SUAutomaticallyUpdate</key>
-	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
+	<key>SUFeedAlternateAppNameKey</key>
+	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing.xml</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=76</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-01-04T00:35:51Z</date>
-	<key>SUSkippedVersion</key>
-	<string>2.0.0.20141022</string>
+	<date>2016-06-16T00:30:14Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1197,6 +1189,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.1.4</string>
+	<string>3.0.2</string>
 </dict>
 </plist>
