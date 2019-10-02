@@ -1,0 +1,20 @@
+# 自動生成されるものやgemはチェック対象から除外する
+AllCops:
+  TargetRubyVersion: 2.6
+  Exclude:
+    - "db/schema.rb"
+    - "db/migrate/*.rb"
+    - "node_modules/**/*"
+    - "vendor/**/*"
+
+# Hashのkeyとvalueをそれぞれ揃える
+Layout/AlignHash:
+  EnforcedHashRocketStyle: table
+
+# privateメソッドは1つインデントを下げる
+Layout/IndentationConsistency:
+  EnforcedStyle: indented_internal_methods
+
+# 複数行に跨る場合はインデントを1つ（次の行から）下げる
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented_relative_to_receiver
