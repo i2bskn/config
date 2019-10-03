@@ -1,0 +1,13 @@
+[Unit]
+Description=redis
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/redis-server /usr/local/redis/redis.conf
+ExecStop=/usr/local/bin/redis-cli shutdown
+User=redis
+Group=redis
+SyslogIdentifier=redis
+
+[Install]
+WantedBy=multi-user.target
